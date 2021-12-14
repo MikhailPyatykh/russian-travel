@@ -1,4 +1,7 @@
 .header__lang {
-  display: flex;
-  padding: 18px 0px 0px;
+  padding-right: 18px;
+}
+
+.header__lang:last-of-type {
+  padding-right: 0px;
 }

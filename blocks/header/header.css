@@ -1,5 +1,36 @@
 .header {
-  min-width: 100%;
   display: flex;
+  max-height: 52px;
+  max-width: 1184px;
   justify-content: space-between;
+  padding: 28px 48px 0px;
+  outline: 1px solid red;
 }
+
+
+@media (min-width: 832px) and (max-width: 960px) {
+  .header {
+  padding: 28px calc(24px + (48 - 24) * ( (100% - 832px) / (960 - 832) )) 0px;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .header {
+  padding: 28px 24px 0px;
+  }
+}
+
+@media (min-width: 432px) and (max-width: 656px) {
+  .header {
+    padding: calc(16px + (28 - 16) * ( (100% - 432px) / (656 - 432) )) calc(16px + (24 - 16) * ( (100% - 432px) / (656 - 432) )) 0px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .header {
+    padding: 16px 16px 0px;
+  }
+}
+
+
+

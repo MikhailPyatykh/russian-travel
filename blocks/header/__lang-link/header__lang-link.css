@@ -1,14 +1,32 @@
 .header__lang-link {
+  display: flex;
   color: #fff;
+  max-width: 30px;
+  max-height: 28px;
+  flex-direction: row;
   text-decoration: none;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   font-family: 'Inter', Arial, sans-serif;
-  margin: 0px 18px 0px 0px;
+  margin: 0px;
   padding: 0px;
 }
 
-.header__lang-link:last-of-type {
-  margin: 0px;
+@media (min-width: 300px) and (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc(18px + (24 - 18) * ( (100vw - 300px) / ( 768 - 300) ));
+    line-height: calc(20px + (28 - 20) * ( (100vw - 300px) / ( 768 - 300) ));
+    max-width: calc(22px + (30 - 22) * ( (100% - 300px) / ( 768 - 300) ));
+    max-height: calc(20px + (28 - 20) * ( (100vw - 300px) / ( 768 - 300) ));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    max-width: 22px;
+    max-height: 20px;
+  }
 }

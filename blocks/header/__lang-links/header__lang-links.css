@@ -1,0 +1,18 @@
+.header__lang-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 18px 0px 6px;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .header__lang-links {
+    padding: calc(14px + (18 - 14) * ( (100% - 300px) / ( 768 - 300) )) 0px calc(8px - (8 - 6) * ( (100% - 300px) / ( 768 - 300) ));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    padding: 14px 0px 8px;
+  }
+}
