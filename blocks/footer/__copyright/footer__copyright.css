@@ -1,0 +1,29 @@
+.footer__copyright {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 710px) {
+  .footer__copyright {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    line-height: calc(14px + (16 - 14) * ((100vw - 321px) / ( 767 - 321)));
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    line-height: 14px;
+  }
+}

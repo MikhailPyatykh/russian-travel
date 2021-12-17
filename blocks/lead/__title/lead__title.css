@@ -15,10 +15,10 @@
 
 @media screen and (max-width: 767px) {
   .lead__title {
-    max-width: calc(288px + (720 - 288) * ((100% - 319px) / (767 - 319)));
-    max-height: calc(88px + (200 - 88) * ((100vw - 319px) / (767 - 319)));
-    font-size: calc(40px + (96 - 40) * ((100vw - 319px) / (767 - 319)));
-    line-height: calc(44px + (100 - 44) * ((100vw - 319px) / (767 - 319)));
+    max-width: calc(288px + (720 - 288) * ((100% - 321px) / (767 - 321)));
+    max-height: calc(88px + (200 - 88) * ((100vw - 321px) / (767 - 321)));
+    font-size: calc(40px + (96 - 40) * ((100vw - 321px) / (767 - 321)));
+    line-height: calc(44px + (100 - 44) * ((100vw - 321px) / (767 - 321)));
    }
 }
 

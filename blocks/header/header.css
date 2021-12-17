@@ -4,8 +4,7 @@
   max-width: 1184px;
   justify-content: space-between;
   padding: 28px 48px 0px;
-  outline: 1px solid red;
-}
+ }
 
 
 @media (min-width: 832px) and (max-width: 960px) {

@@ -3,29 +3,27 @@
   color: #fff;
   text-decoration: none;
   max-width: 640px;
-  max-height: 72px;
   text-align: center;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   font-family: 'Inter', Arial, sans-serif;
-  margin:  0px;
+  margin: 0px;
   padding: 0px;
   padding-top: 32px;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
-    max-width: calc(288px + (640 - 288) * ( (100% - 320px) / ( 768 - 320) ));
-    max-height: calc(40px + (72 - 40) * ( (100vw - 320px) / ( 768 - 320) ));
-    font-size: calc(16px + (30 - 16) * ( (100vw - 320px) / ( 768 - 320) ));
-    line-height: calc(20px + (36 - 20) * ( (100vw - 320px) / ( 768 - 320) ));
-    padding-top: calc(16px + (32 - 16) * ( (100% - 320px) / ( 768 - 320) ));
+    max-width: calc(288px + (640 - 288) * ((100% - 321px) / ( 768 - 321)));
+    font-size: calc(16px + (30 - 16) * ((100vw - 321px) / ( 768 - 321)));
+    line-height: calc(20px + (36 - 20) * ((100vw - 321px) / ( 768 - 321)));
+    padding-top: calc(16px + (32 - 16) * ((100% - 321px) / ( 768 - 321)));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
     max-height: 40px;
