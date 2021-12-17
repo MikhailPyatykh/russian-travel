@@ -1,0 +1,28 @@
+.cover__title {
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px 0px 32px;
+  outline: 1px solid green;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    max-width: calc(288px + (560 - 288) * ((100% - 321px) / (767 - 321)));
+    font-size: calc(32px + (72 - 32) * ((100vw - 321px) / (767 - 321)));
+    line-height: calc(35px + (76 - 35) * ((100vw - 321px) / (767 - 321)));
+    padding: 0px 0px calc(16px + (32 - 16) * ((100% - 321px) / (767 - 321)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0px 0px 16px;
+  }
+}

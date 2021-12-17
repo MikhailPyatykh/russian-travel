@@ -1,11 +1,11 @@
-.intro__list_line {
+.place__website-link {
+  display: flex;
+  justify-content: flex-start;
   color: #fff;
-  list-style: none;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 22px;
   font-family: 'Inter', Arial, sans-serif;
   margin: 0px;
   padding: 0px;
 }
-

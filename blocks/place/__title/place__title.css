@@ -1,0 +1,31 @@
+.place__title {
+  display: flex;
+  color: #fff;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: calc(42px + (72 - 42) * ((100vw - 769px) / (1023 - 769)));
+    line-height: calc(46px + (76 - 46) * ((100vw - 769px) / (1023 - 769)));
+   }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35 px;
+   }
+}
