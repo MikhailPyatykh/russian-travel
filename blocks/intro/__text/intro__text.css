@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    line-height: calc(26px + ((26 - 26.08)*((100vw - 319)/(767 - 319))));
+    line-height: calc(26px + (26 - 26.08)*((100vw - 319)/(767 - 319)));
   }
 }
 
