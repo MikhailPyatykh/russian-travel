@@ -8,4 +8,4 @@
 
 Выполнил: Пятых Михаил
 
-Проект можно посмотреть по этой ссылке [https://mikhailpyatykh.github.io/russian-travel/index.html](Проект: "Путешествие по России")
+Проект можно посмотреть по этой ссылке [Проект: "Путешествие по России]("https://mikhailpyatykh.github.io/russian-travel/index.html)
