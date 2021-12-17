@@ -23,9 +23,16 @@
    }
 }
 
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: calc(32px + (42 - 32) * ((100vw - 321px) / (767 - 321)));
+    line-height: calc(35px + (46 - 35) * ((100vw - 321px) / (767 - 321)));
+   }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
-    line-height: 35 px;
+    line-height: 35px;
    }
 }

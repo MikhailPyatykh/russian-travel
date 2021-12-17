@@ -9,6 +9,7 @@
   font-family: 'Inter', Arial, sans-serif;
   margin: 0px 0px 26px;
   padding: 0px;
+  outline: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    margin: 0px 0px 27 px;
+    margin: 0px 0px 27px;
   }
 
   .place__paragraph:last-of-type {
@@ -37,7 +38,7 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
-    margin: 0px 0px 25 px;
+    margin: 0px 0px 25px;
   }
 
   .place__paragraph:last-of-type {
@@ -45,9 +46,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 740px) {
   .place__paragraph {
-    padding-left: calc(16px + (0 - 16) * ((100% - 321px) / (767 - 321)));
+    padding-left: calc(16px + (0 - 16) * ((100% - 321px) / (740 - 321)));
   }
 }
 

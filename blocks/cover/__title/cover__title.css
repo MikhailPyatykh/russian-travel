@@ -6,6 +6,7 @@
   text-decoration: none;
   margin: 0px;
   padding: 0px 0px 32px;
+  box-sizing: border-box;
   outline: 1px solid green;
 }
 
@@ -14,7 +15,7 @@
     max-width: calc(288px + (560 - 288) * ((100% - 321px) / (767 - 321)));
     font-size: calc(32px + (72 - 32) * ((100vw - 321px) / (767 - 321)));
     line-height: calc(35px + (76 - 35) * ((100vw - 321px) / (767 - 321)));
-    padding: 0px 0px calc(16px + (32 - 16) * ((100% - 321px) / (767 - 321)));
+    padding: 0px calc(20px + (0 - 20) * ((100% - 321px) / (767 - 321))) calc(16px + (32 - 16) * ((100% - 321px) / (767 - 321)));
   }
 }
 
@@ -23,6 +24,6 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    padding: 0px 0px 16px;
+    padding: 0px 20px 16px;
   }
 }
