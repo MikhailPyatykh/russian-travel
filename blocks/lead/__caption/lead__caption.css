@@ -1,29 +1,29 @@
 .lead__caption {
-  display: flex;
+  display: grid;
+  justify-self: start;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: max-content;
   max-height: 14px;
-  flex-wrap: nowrap;
   color: #fff;
   font-family: 'Inter', Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;
   margin: 0px;
   padding: 0px;
   padding-top: 8px;
-  align-self: flex-start;
-}
-
-@media (min-width: 767px) and (max-width: 1023px) {
-  .lead__caption {
-    padding-left: calc(24px + (0 - 24) * ((100% - 767px) / (927 - 767)));
-   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
     padding-left: 24px;
-   }
+  }
 }
 
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}
