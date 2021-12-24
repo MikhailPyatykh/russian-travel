@@ -1,29 +1,4 @@
 .places {
   display: flex;
   margin: 0px auto;
-  padding: 0px 48px;
-}
-
-@media screen and (max-width: 1023px) {
-  .places {
-    padding: 0px calc(24px + (48 - 24) * ((100% - 769px) / (1023 - 769)));
-   }
-}
-
-@media screen and (max-width: 768px) {
-  .places {
-    padding: 0px 24px;
-   }
-}
-
-@media screen and (max-width: 767px) {
-  .places {
-    padding: 0px calc(0px + (24 - 0) * ((100% - 321px) / (767 - 321)));
-   }
-}
-
-@media screen and (max-width: 320px) {
-  .places {
-    padding: 0px;
-   }
 }

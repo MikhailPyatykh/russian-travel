@@ -5,13 +5,13 @@
   padding: 0px;
 }
 
-@media screen and (max-width: 1152px){
+@media screen and (max-width: 768px){
   .places__list {
     row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 896px){
+@media screen and (max-width: 320px){
   .places__list {
     row-gap: 50px;
   }

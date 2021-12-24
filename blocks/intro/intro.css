@@ -14,28 +14,16 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding-left: 48px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .intro {
-    max-width: calc(720px + (690 - 720) * ( (100% - 769px) / (1023 - 769)));
-    padding-left: calc(24px + (48 - 24) * ( (100% - 769px) / (1023 - 769)));
+    max-width: calc(720px + (690 - 720) * ( (100% - 769px) / (1024 - 769)));
+    padding-left: calc(24px + (48 - 24) * ( (100% - 769px) / (1024 - 769)));
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
+    max-width: calc(288px + (720 - 288) * ( (100% - 321px) / (768 - 321)));
     padding: 0px;
     justify-self: center;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro {
-    max-width: calc(288px + (720 - 288) * ( (100% - 321px) / (767 - 321)));
   }
 }
 

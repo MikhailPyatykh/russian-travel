@@ -5,21 +5,14 @@
   justify-content: space-between;
   width: 100%;
   max-width: 1184px;
-  max-height: 18px;
   padding: 0px;
-  padding-top: 92px;
-  margin: 0px auto;
+  margin: 92px auto 0px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
   .footer {
     max-width: calc(92.5%);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 928px;
   }
 }
 
@@ -31,13 +24,8 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer {
     max-width: calc(93.75%);
+    margin-top: 88px;
   }
 }
 
@@ -47,9 +35,7 @@
     grid-auto-flow: row;
     grid-row-gap: 48px;
     max-width: 186px;
-    max-height: 310px;
     justify-self: start;
-    margin: 0px;
     margin-left: calc(5%);
   }
 }
@@ -57,5 +43,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     margin-left: 16px;
-  }
+    margin: 64px 0px 0px 16px;
+   }
 }

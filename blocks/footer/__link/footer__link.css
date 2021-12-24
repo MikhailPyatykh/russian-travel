@@ -1,4 +1,7 @@
 .footer__link {
+  display: grid;
+  grid-template-rows: 24px;
+  align-items: center;
   color: #fff;
   text-decoration: none;
   font-family: 'Inter', Arial, sans-serif;
@@ -11,7 +14,7 @@
 }
 
 .footer__link:hover {
-  opacity: 30%;
+  opacity: 80%;
   transition: opacity 0.6s ease-in-out;
 }
 

@@ -1,0 +1,7 @@
+.lead__figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+}

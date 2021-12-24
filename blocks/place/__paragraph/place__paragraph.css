@@ -18,6 +18,8 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
+    font-size: calc(16px + (18 - 16) * ((100vw - 769px) / (1024 - 769)));
+    line-height: calc(26.08px + (29.34 - 26.08) * ((100vw - 769px) / (1024 - 769)));
     margin: 0px 0px 27px;
   }
 
@@ -26,28 +28,16 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .place__paragraph {
-    font-size: calc(16px + (18 - 16) * ((100vw - 769px) / (1023 - 769)));
-    line-height: calc(26.08px + (29.34 - 26.08) * ((100vw - 769px) / (1023 - 769)));
-  }
-}
-
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
     margin: 0px 0px 25px;
+    padding-left: calc(16px + (0 - 16) * ((100% - 321px) / (768 - 321)));
   }
 
   .place__paragraph:last-of-type {
     margin: 0px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .place__paragraph {
-    padding-left: calc(16px + (0 - 16) * ((100% - 321px) / (740 - 321)));
   }
 }
 
