@@ -14,5 +14,7 @@
 }
 
 @media screen and (max-width: 544px) {
-
+  .content {
+    grid-row-gap: 64px;
+  }
 }

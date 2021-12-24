@@ -21,7 +21,7 @@
     max-width: 288px calc(288px + (640 - 280) * ((100% - 321px) / (767 - 321)));
     font-size: calc(16px + (30 - 16) * ((100vw - 321px) / (767 - 321)));
     line-height: calc(20px + (36 - 20) * ((100vw - 321px) / (767 - 321)));
-    padding: 32px calc(10%) 0px;
+    padding: 32px calc(7%) 0px;
   }
 }
 

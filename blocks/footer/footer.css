@@ -6,7 +6,9 @@
   width: 100%;
   max-width: 1184px;
   padding: 0px;
-  margin: 92px auto 0px;
+  padding-top: 0px;
+  margin: 0px auto;
+  margin-top: 92px;
   box-sizing: border-box;
 }
 

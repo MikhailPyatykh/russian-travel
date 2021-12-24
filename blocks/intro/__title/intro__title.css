@@ -7,6 +7,7 @@
   font-size: 54px;
   line-height: 58px;
   font-family: 'Inter', Arial, sans-serif;
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
@@ -22,5 +23,7 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
+    padding-right: 40px;
+    max-width: 288px;
   }
 }
