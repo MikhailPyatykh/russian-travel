@@ -21,8 +21,13 @@
     max-width: 340px;
     font-size: calc(32px + (42 - 32) * ((100vw - 321px) / (768 - 321)));
     line-height: calc(35px + (46 - 35) * ((100vw - 321px) / (768 - 321)));
-    padding-left: calc(16px + (0 - 16) * ((100vw - 321px) / (768 - 321)));
     padding-right: 16px;
+   }
+}
+
+@media screen and (max-width: 670px) {
+  .place__title {
+    padding-left: 16px;
    }
 }
 

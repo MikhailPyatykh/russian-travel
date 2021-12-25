@@ -34,13 +34,18 @@
   .place {
     column-gap: 28px;
     max-width: 720px;
-    grid-template-columns: minmax(320px, 340px) minmax(320px, 352px);
+    grid-template-columns: minmax(300px, 340px) minmax(300px, 352px);
    }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 670px) {
   .place {
-    row-gap: 32px;
     grid-template-columns: minmax(320px, auto);
    }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    row-gap: 32px;
+  }
 }

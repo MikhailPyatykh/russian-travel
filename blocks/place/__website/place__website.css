@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 670px){
   .place__website {
     padding-left: 16px;
   }
